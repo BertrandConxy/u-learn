@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Paul D'lingo",
+        "location": "Corsica, France",
+        "teachings": 1000,
+        "active": true,
+        "gender": "female",
+        "rating": 4.5
+    },
+    {
+        "id": 2,
+        "name": "Olukay Dehimbo",
+        "location": "J'burg, SA",
+        "teachings": 700,
+        "active": false,
+        "gender": "male",
+        "rating": 4.5
+    },
+    {
+        "id": 3,
+        "name": "Tina Goldsmith",
+        "location": "New York, USA",
+        "teachings": 500,
+        "active": true,
+        "gender": "female",
+        "rating": 3
+    },
+    {
+        "id": 4,
+        "name": "Karol Paul",
+        "location": "Texas, USA",
+        "teachings": 2000,
+        "active": true,
+        "gender": "female",
+        "rating": 5
+    },
+    {
+        "id": 5,
+        "name": "John Doe",
+        "location": "New York, USA",
+        "teachings": 1000,
+        "active": true,
+        "gender": "male",
+        "rating": 4.5
+    },
+    {
+        "id": 6,
+        "name": "Jane Doe",
+        "location": "Kigali, Rwanda",
+        "teachings": 500,
+        "active": false,
+        "gender": "female",
+        "rating": 3.5
+    },
+    {
+        "id": 7,
+        "name": "James Paul",
+        "location": "Paris, France",
+        "teachings": 2000,
+        "active": true,
+        "gender": "male",
+        "rating": 5
+    },
+    {
+        "id": 8,
+        "name": "Marie Claire",
+        "location": "Paris, France",
+        "teachings": 1000,
+        "active": true,
+        "gender": "female",
+        "rating": 4.5
+    },
+    {
+        "id": 9,
+        "name": "Arnauld Grey",
+        "location": "New York, USA",
+        "teachings": 1000,
+        "active": false,
+        "gender": "male",
+        "rating": 4.5
+    },
+    {
+        "id": 10,
+        "name": "Lily Liose",
+        "location": "Lagos, Nigeria",
+        "teachings": 1000,
+        "active": true,
+        "gender": "female",
+        "rating": 5
+    }
+]
