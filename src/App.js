@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Box from '@mui/material/Box';
+import LeftNav from './components/LeftNav';
+import TopBar from './components/TopBar';
+import Main from './components/Main';
 
-function App() {
+const App = () => {
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+  const handleDrawerToggle = () => {
+    setMobileOpen(!mobileOpen);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box sx={{ display: 'flex' }}>
+      <TopBar handleDrawerToggle={handleDrawerToggle} />
+      <LeftNav mobileOpen={mobileOpen} handleDrawerToggle={handleDrawerToggle} />
+      <Main />
+    </Box>
   );
-}
+};
 
 export default App;
