@@ -2,6 +2,10 @@ import Box from '@mui/material/Box';
 import PropTypes from 'prop-types';
 import Drawer from '@mui/material/Drawer';
 import { GiTeacher } from 'react-icons/gi';
+import { BsTranslate } from 'react-icons/bs';
+import { MdOutlinePlayLesson } from 'react-icons/md';
+import { FcStatistics } from 'react-icons/fc';
+import { AiOutlineShoppingCart } from 'react-icons/ai';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
@@ -9,11 +13,9 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import Toolbar from '@mui/material/Toolbar';
 import Logo from '../assets/u-learn-logo.png';
-import useStyles from './styles';
 
 const LeftNav = ({ mobileOpen, handleDrawerToggle }) => {
-  const classes = useStyles();
-  const drawerWidth = 240;
+  const drawerWidth = 300;
   const drawer = (
     <>
       <Toolbar
@@ -28,50 +30,97 @@ const LeftNav = ({ mobileOpen, handleDrawerToggle }) => {
           mt: 12,
         }}
       >
-        <ListItem disablePadding>
+        <ListItem
+          disablePadding
+          className="list-item"
+        >
           <ListItemButton>
             <ListItemIcon
-              disablePadding
-              className={classes.ListIcon}
+              disablepadding
+              sx={{
+                color: 'black',
+                fontSize: '5rem',
+              }}
             >
               <GiTeacher />
             </ListItemIcon>
             <ListItemText
-              className={{ Primary: classes.ListText }}
+              disableTypography
+              className="list-text active"
               primary="Tutors"
             />
           </ListItemButton>
         </ListItem>
-        <ListItem disablePadding>
+        <ListItem disablePadding className="list-item">
           <ListItemButton>
-            <ListItemIcon>
-              <GiTeacher />
+            <ListItemIcon
+              disablepadding
+              sx={{
+                color: 'black',
+                fontSize: '5rem',
+              }}
+            >
+              <BsTranslate />
             </ListItemIcon>
-            <ListItemText primary="Tutors" />
+            <ListItemText
+              disableTypography
+              className="list-text"
+              primary="Explore Languages"
+            />
           </ListItemButton>
         </ListItem>
-        <ListItem disablePadding>
+        <ListItem disablePadding className="list-item">
           <ListItemButton>
-            <ListItemIcon disablePadding>
-              <GiTeacher />
+            <ListItemIcon
+              disablepadding
+              sx={{
+                color: 'black',
+                fontSize: '5rem',
+              }}
+            >
+              <MdOutlinePlayLesson />
             </ListItemIcon>
-            <ListItemText primary="Tutors" />
+            <ListItemText
+              disableTypography
+              className="list-text"
+              primary="My Lessons"
+            />
           </ListItemButton>
         </ListItem>
-        <ListItem disablePadding>
+        <ListItem disablePadding className="list-item">
           <ListItemButton>
-            <ListItemIcon disablePadding>
-              <GiTeacher />
+            <ListItemIcon
+              disablepadding
+              sx={{
+                color: 'black',
+                fontSize: '5rem',
+              }}
+            >
+              <FcStatistics />
             </ListItemIcon>
-            <ListItemText primary="Tutors" />
+            <ListItemText
+              disableTypography
+              className="list-text"
+              primary="Statistics"
+            />
           </ListItemButton>
         </ListItem>
-        <ListItem disablePadding>
+        <ListItem disablePadding className="list-item">
           <ListItemButton>
-            <ListItemIcon disablePadding>
-              <GiTeacher />
+            <ListItemIcon
+              disablepadding
+              sx={{
+                color: 'black',
+                fontSize: '5rem',
+              }}
+            >
+              <AiOutlineShoppingCart />
             </ListItemIcon>
-            <ListItemText primary="Tutors" />
+            <ListItemText
+              disableTypography
+              className="list-text"
+              primary="Shopping Cart"
+            />
           </ListItemButton>
         </ListItem>
       </List>
