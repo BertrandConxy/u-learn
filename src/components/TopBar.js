@@ -8,7 +8,6 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 const drawerWidth = 240;
-
 const TopBar = ({ handleDrawerToggle }) => (
   <Box sx={{ display: 'flex' }}>
     <AppBar
