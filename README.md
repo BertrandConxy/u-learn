@@ -1,4 +1,5 @@
 ![](https://img.shields.io/badge/ULearn-blue)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cb591fa3-6958-4baa-b4cf-153a12459705/deploy-status)](https://app.netlify.com/sites/cu-learn/deploys)
 
 # U-learn
 > This is a SPA web app where learners can learn and interact with their tutors through call and Chats. It is built with Reactjs and Material UI
@@ -10,6 +11,9 @@
 
 ## Desktop
 ![u-learn-desktop](https://user-images.githubusercontent.com/90222110/201514080-d8ae2e01-66f5-4c1f-9573-0b80013399e7.PNG)
+
+# Live Demo
+[Live Demo](https://cu-learn.netlify.app/)
 
 ## Built With
 
