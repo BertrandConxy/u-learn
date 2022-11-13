@@ -15,7 +15,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Logo from '../assets/u-learn-logo.png';
 
 const LeftNav = ({ mobileOpen, handleDrawerToggle }) => {
-  const drawerWidth = 300;
+  const drawerWidth = 320;
   const drawer = (
     <>
       <Toolbar
