@@ -5,6 +5,12 @@
 
 # Screenshoots
 
+## Mobile
+![u-learn-mobile](https://user-images.githubusercontent.com/90222110/201514061-11c9421a-dbb1-42ef-8a87-1a2d8fbb636f.PNG)
+
+## Desktop
+![u-learn-desktop](https://user-images.githubusercontent.com/90222110/201514080-d8ae2e01-66f5-4c1f-9573-0b80013399e7.PNG)
+
 ## Built With
 
 - Major languages (HTML, CSS, JavaScript)
