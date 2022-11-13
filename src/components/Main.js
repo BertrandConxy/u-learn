@@ -9,7 +9,7 @@ import Footer from './Footer';
 const Main = () => (
   <Box
     component="main"
-    sx={{ flexGrow: 1, p: 1, width: { sm: 'calc(100% - 300px)' } }}
+    sx={{ flexGrow: 1, p: 1, width: { sm: 'calc(100% - 320px)' } }}
   >
     <Toolbar />
     <Box sx={{ mt: 4 }}>

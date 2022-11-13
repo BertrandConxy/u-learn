@@ -9,7 +9,7 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { FaUser } from 'react-icons/fa';
 import HideOnScroll from './HideOnScroll';
 
-const drawerWidth = 300;
+const drawerWidth = 320;
 const TopBar = ({ handleDrawerToggle }) => (
   <Box sx={{ display: 'flex' }}>
     <HideOnScroll>
