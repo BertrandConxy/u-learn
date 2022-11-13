@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Box from '@mui/material/Box';
+import CssBaseline from '@mui/material/CssBaseline';
 import LeftNav from './components/LeftNav';
 import TopBar from './components/TopBar';
 import Main from './components/Main';
@@ -12,11 +13,14 @@ const App = () => {
   };
 
   return (
-    <Box sx={{ display: 'flex' }}>
-      <TopBar handleDrawerToggle={handleDrawerToggle} />
-      <LeftNav mobileOpen={mobileOpen} handleDrawerToggle={handleDrawerToggle} />
-      <Main />
-    </Box>
+    <>
+      <CssBaseline />
+      <Box sx={{ display: 'flex' }}>
+        <TopBar handleDrawerToggle={handleDrawerToggle} />
+        <LeftNav mobileOpen={mobileOpen} handleDrawerToggle={handleDrawerToggle} />
+        <Main />
+      </Box>
+    </>
   );
 };
 

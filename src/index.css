@@ -54,8 +54,92 @@ body {
   width: 5%;
 }
 
+.search-input {
+  width: 100%;
+  font-size: 1.5rem;
+  padding-left: 10px;
+  border-radius: 0.8rem;
+  border: 1px solid black;
+  box-shadow: 0.1rem 0.4rem 0.5rem rgba(0, 0, 0, 0.4);
+  height: 4rem;
+}
+
+.search-icon {
+  color: #000;
+  font-size: 3rem;
+  right: 2rem;
+  position: absolute;
+  align-self: center;
+}
+
+.search-container {
+  position: relative;
+  width: 30%;
+  display: flex;
+}
+
+.search-input::placeholder {
+  padding: 0 1rem;
+  font-style: italic;
+}
+
+.search-input:focus {
+  outline: none;
+  border: 1px solid rgb(64, 120, 232);
+  box-shadow: none;
+}
+
+.search-input:focus + .search-icon {
+  display: none;
+}
+
+.card {
+  border: 1px solid rgb(132, 131, 131);
+  border-radius: 1rem !important;
+  box-shadow: 0.1rem 0.2rem 0.5rem rgba(0, 0, 0, 0.4) !important;
+}
+
+.tutor-profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tutor-names {
+  display: flex;
+  gap: 1rem;
+}
+
+.chip {
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.red {
+  color: red;
+  font-size: 2.5rem;
+}
+
+.green {
+  color: green;
+  font-size: 2.5rem;
+}
+
+.user-icon {
+  font-size: 5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
 @media screen and (max-width: 768px) {
   .image-holder {
     width: 30%;
+  }
+
+  .search-container {
+    width: 100%;
   }
 }
