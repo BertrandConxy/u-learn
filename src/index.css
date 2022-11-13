@@ -76,6 +76,16 @@ body {
   position: relative;
   width: 30%;
   display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.data-result {
+  border: 1px solid rgb(64, 120, 232);
+  border-top: none;
+  transform: translateY(-0.2rem);
+  border-radius: 0 0 0.5rem 0.5rem;
+  box-shadow: 0.1rem 0.4rem 0.5rem rgba(0, 0, 0, 0.4);
 }
 
 .search-input::placeholder {
